@@ -1,5 +1,5 @@
 {
-  "name": "multiformats",
+  "name": "@bicycle-codes/multiformats",
   "version": "13.0.1",
   "description": "Interface for multihash, multicodec, multibase and CID",
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
@@ -269,7 +269,8 @@
     "test:chrome-webworker": "aegir test -t webworker",
     "test:firefox": "aegir test -t browser -- --browser firefox",
     "test:firefox-webworker": "aegir test -t webworker -- --browser firefox",
-    "test:electron-main": "aegir test -t electron-main"
+    "test:electron-main": "aegir test -t electron-main",
+    "postversion": "git push --follow-tags && npm publish"
   },
   "devDependencies": {
     "@stablelib/sha256": "^1.0.1",

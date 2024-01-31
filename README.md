@@ -207,7 +207,7 @@ Other (less useful) bases implemented in [multiformats/js-multiformats](https://
 # Install
 
 ```console
-$ npm i multiformats
+$ npm i @bicycle-codes/multiformats
 ```
 
 ## Browser `<script>` tag
@@ -217,6 +217,10 @@ Loading this module through a script tag will make it's exports available as `Mu
 ```html
 <script src="https://unpkg.com/multiformats/dist/index.min.js"></script>
 ```
+
+# fork
+This is functionally equivalent to [multiformats/js-multiformats](https://github.com/multiformats/js-multiformats).
+
 
 # API Docs
 
