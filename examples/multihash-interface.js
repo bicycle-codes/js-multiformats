@@ -1,5 +1,5 @@
+import { webcrypto as crypto } from 'crypto'
 import { CID } from 'multiformats/cid'
-import crypto from 'crypto'
 import * as json from 'multiformats/codecs/json'
 import * as hasher from 'multiformats/hashes/hasher'
 

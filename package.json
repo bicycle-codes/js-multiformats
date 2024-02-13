@@ -294,5 +294,8 @@
     "./dist/src/hashes/sha1.js": "./dist/src/hashes/sha1-browser.js",
     "./hashes/sha2": "./dist/src/hashes/sha2-browser.js",
     "./dist/src/hashes/sha2.js": "./dist/src/hashes/sha2-browser.js"
+  },
+  "dependencies": {
+    "one-webcrypto": "^1.0.3"
   }
 }
